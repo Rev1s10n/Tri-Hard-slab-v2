@@ -48,7 +48,42 @@ Besides the PCB and arcylics, you need to order some additional things for the b
 - 1.3 OLED display, which you can find pretty much everywhere, usually it's SH1106 driver, make sure to check the pin order and set the pins accordingly with the slide switch next to it.
 - 6 M6 sex bolts / chicago screws with 14mm length to secure the whole things.
 
-I didn't compile my own firmware so I use Raspberry Pi Pico one which you can download [here](https://gp2040-ce.info/#/download). Once uploaded to the board, hold 3P / RB / R1 key (GPIO17) and connect to computer and go to 192.168.7.1 for the web configurator, you can either upload my [setting files for v0.7.5](Setting files for GP2040-CE/gp2040ce_backup_20231024164547186.gp2040) or 
+I didn't compile my own firmware so I use Raspberry Pi Pico one which you can download [here](https://gp2040-ce.info/#/download). Once uploaded to the board, hold 3P / RB / R1 key (GPIO17) and connect to computer and go to 192.168.7.1 for the web configurator, you can either upload my [setting files for v0.7.5](Setting%20files%20for%20GP2040-CE/gp2040ce_backup_20231024164547186.gp2040) or manually do the pin mapping with following GPIO layout:
+|Keys|GPIO|
+|-|-|
+|Up|14|
+|Down|12|
+|Left|11|
+|Right|13|
+|B1/1K/A/Circle|18|
+|B2/2K/B/Cross|19|
+|B3/1P/X/Square|15|
+|B4/2P/Y/Triangle|16|
+|L1/4P/LB|21|
+|R1/3P/RB|17|
+|L2/4K/LT|22|
+|R2/3K/RT|20|
+|S1/Select/Back|6|
+|S2/Start|8|
+|L3/LS|10|
+|R3/RS|9|
+|A1/Home/Guide|7|
+|A2/Touch|24|
+
+Additionally here's the GPIO and some other settings for other features and addons:
+|Features|GPIO and index|
+|-|-|
+|RGB LED Data Pin|3|
+|Player LEDs|starting from 15 to 18|
+|Display SDA|4|
+|Display SCL|5|
+|Joystick Selection Slider Pine 1|26|
+|Joystick Selection Slider Pine 2|25|
+|SOCD Cleaning Mode Selection Slider Pin 1|28|
+|SOCD Cleaning Mode Selection Slider Pin 2|27|
+|PS Passthrough D+|1|
+|PS Passthrough D-|2 (automactically selected)|
+|Focus Mode Pin|29|
 
 ## Attribution
 You're free to use this design as long you credit to this page.
