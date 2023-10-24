@@ -1,6 +1,6 @@
 # Tri-Hard slab v2
 ## **English | [繁體中文](README_zh-TW.md)**
-Slim all button controller powered by [GP2040-CE](https://gp2040-ce.info/) firmware, with custom 15 buttons layout mainly for Street Fighter 6 and upcoming games that may support additional keybinding.
+Slim all button controller powered by [GP2040-CE](https://gp2040-ce.info/) firmware (v0.7.5), with custom 15 buttons layout mainly for Street Fighter 6 and upcoming games that may support additional keybinding.
 
 Mainly inspired by [Egg On Rice Controller](https://github.com/b1nc/Egg-On-Rice-Controller) by [b1nc](https://github.com/b1nc), [Mille-feuille](https://pomegd.booth.pm/items/2685530) by [ぽめ](https://twitter.com/pomegd) and [BridgeBoard](https://bridgeshop.booth.pm/items/4869470) by [立川 Bridge](https://twitter.com/GBB_tachikawa).
 
@@ -21,7 +21,7 @@ Some close up photo for each feature:
 ![The core](images/ths-001-RP2040.jpg)
 _Main circuit is heavily based on flatbox with some componenets replaced due to parts shortage_
 ![Functions and display](images/ths-002-menu-and-display.jpg)
-_3 tactile switches for your daily stuff and the display on the top left_
+_3 tactile switches for your daily stuff and the display on the top left, there's additional slide switch for display pin switch (GND / VCC)_
 ![Slide switches](images/ths-003-slide-switches.jpg)
 _All slide switches on the right hand side, they sit flush with the enclosure but still can be reach easily_
 ![Player number indication](images/ths-004-player-led.jpg)
@@ -39,6 +39,16 @@ To refine it further, send the step files to vendor to ask them do either fillet
 ## Source files
 The Tri-Hard slab v2 is made with Autodesk Fusion 360 and KiCad 7.0.
 Everything is under Source files (except for the original 360 file as that's not really necessary, you can import those dxf into fusion easily), there's additional footprints for some parts that is somewhat interchangeable but you need to put extra works like rewire some traces or edit edge cuts.
+
+## Assemble and settings
+
+Besides the PCB and arcylics, you need to order some additional things for the build:
+- Kailh low profile switches, obviously, depends on your keycaps, I use v2 specifically as I want want to use Punk Workshop's keycap.
+- 15 Kailh low profile hotswap socket (for PG1350, which is compatible with PG1353).
+- 1.3 OLED display, which you can find pretty much everywhere, usually it's SH1106 driver, make sure to check the pin order and set the pins accordingly with the slide switch next to it.
+- 6 M6 sex bolts / chicago screws with 14mm length to secure the whole things.
+
+I didn't compile my own firmware so I use Raspberry Pi Pico one which you can download [here](https://gp2040-ce.info/#/download). Once uploaded to the board, hold 3P / RB / R1 key (GPIO17) and connect to computer and go to 192.168.7.1 for the web configurator, you can either upload my [setting files for v0.7.5](Setting files for GP2040-CE/gp2040ce_backup_20231024164547186.gp2040) or 
 
 ## Attribution
 You're free to use this design as long you credit to this page.
