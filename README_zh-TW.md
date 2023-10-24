@@ -1,4 +1,4 @@
-# Tri-Hard-slab-v2
+# Tri-Hard slab v2
 ## **[English](README.md) | 繁體中文**
 使用 [GP2040-CE](https://gp2040-ce.info/) 的薄型全按鍵控制器，為了《快打旋風 6》以及希望未來其他格鬥遊戲會跟進額外按鍵綁定的客製 15 鍵配置。
 
