@@ -2,7 +2,7 @@
 ## **[English](README.md) | 繁體中文**
 使用 [GP2040-CE](https://gp2040-ce.info/) 0.7.5 版的薄型全按鍵控制器，為了《快打旋風 6》以及希望未來其他格鬥遊戲會跟進額外按鍵綁定的客製 15 鍵配置。
 
-主要啟發自 [b1nc](https://github.com/b1nc) 的 [Egg On Rice Controller](https://github.com/b1nc/Egg-On-Rice-Controller)、[ぽめ](https://twitter.com/pomegd)的[Mille-feuille](https://pomegd.booth.pm/items/2685530)以及[立川 Bridge](https://twitter.com/GBB_tachikawa)的[BridgeBoard](https://bridgeshop.booth.pm/items/4869470)。
+主要啟發自 [b1nc](https://github.com/b1nc) 的 [Egg On Rice Controller](https://github.com/b1nc/Egg-On-Rice-Controller)、[ぽめ](https://twitter.com/pomegd)的[Mille-feuille](https://pomegd.booth.pm/items/2685530)以及[立川 Bridge](https://twitter.com/GBB_tachikawa) 的 [BridgeBoard](https://bridgeshop.booth.pm/items/4869470)。
 
 設計參考主要源自 [jfdeor2](https://github.com/jfedor2) 的 [flatbox](https://github.com/jfedor2/flatbox) rev4 以及 [TheTrain](https://github.com/TheTrainGoes) 和 [Lucipher](https://github.com/arntsonl) 的 [USB Passthrough Board](https://github.com/OpenStickCommunity/Hardware/tree/main/USB%20Passthrough%20Board)，後者採用 [CC 姓名標示 4.0](https://creativecommons.org/licenses/by/4.0/) 授權。
 
@@ -48,7 +48,7 @@ Tri-Hard slab v2 使用 Autodesk Fusion 360 跟 KiCad 7.0 製作。
 - 1.3 吋 OLED 螢幕，通常是 SH1106 驅動晶片，有些針腳 GND / VCC 位置會相反，記得用旁邊的滑動開關去調整
 - 6 個 14mm 長度 的 M6 對鎖螺絲來將所有東西組裝在一起。
 
-我並沒有自己編譯韌體，所以我直接從[這邊](https://gp2040-ce.info/#/download) 下載了 Raspberry Pi Pico 的版本，上傳到板子之後，按住 3P / RB / R1 按鍵（GPIO17）並連接到電腦上，在瀏覽器中輸入 192.168.7.1 開啟網路設定頁面，你可以上船我目前的設定檔 [setting files for v0.7.5](Setting%20files%20for%20GP2040-CE/gp2040ce_backup_20231024164547186.gp2040)，或是依照下方的資訊來手動設定所有的 GPIO 腳位：
+我並沒有自己編譯韌體，所以我直接從[這邊](https://gp2040-ce.info/#/download) 下載了 Raspberry Pi Pico 的版本，上傳到板子之後，按住 3P / RB / R1 按鍵（GPIO17）並連接到電腦上，在瀏覽器中輸入 192.168.7.1 開啟網路設定頁面，你可以上傳我目前的設定檔 [setting files for v0.7.5](Setting%20files%20for%20GP2040-CE/gp2040ce_backup_20231024164547186.gp2040)，或是依照下方的資訊來手動設定所有的 GPIO 腳位：
 |按鍵|GPIO|
 |-|-|
 |Up|14|
@@ -84,6 +84,8 @@ Tri-Hard slab v2 使用 Autodesk Fusion 360 跟 KiCad 7.0 製作。
 |PS Passthrough D+|1|
 |PS Passthrough D-|2 (automactically selected)|
 |Focus Mode Pin|29|
+
+當設定完之後，要重新進入網路設定頁面，則在按住 S1/Start（左上角的按鍵，GPIO8）並接上電腦即可。
 
 ## 姓名標示
 請自由使用，主要你有註記來源自這個頁面。
