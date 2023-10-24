@@ -1,4 +1,4 @@
-# Tri-Hard-slab-v2
+# Tri-Hard slab v2
 ## **English | [繁體中文](README_zh-TW.md)**
 Slim all button controller powered by [GP2040-CE](https://gp2040-ce.info/) firmware, with custom 15 buttons layout mainly for Street Fighter 6 and upcoming games that may support additional keybinding.
 
