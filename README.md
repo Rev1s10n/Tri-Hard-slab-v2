@@ -1,4 +1,5 @@
 # Tri-Hard-slab-v2
+English | [繁體中文](README_zh-TW.md)
 Slim all button controller powered by [GP2040-CE](https://gp2040-ce.info/) firmware, with custom 15 buttons layout mainly for Street Fighter 6 and upcoming games that may support additional keybinding.
 
 Mainly inspired by [Egg On Rice Controller](https://github.com/b1nc/Egg-On-Rice-Controller) by [b1nc](https://github.com/b1nc), [Mille-feuille](https://pomegd.booth.pm/items/2685530) by [ぽめ](https://twitter.com/pomegd) and [BridgeBoard](https://bridgeshop.booth.pm/items/4869470) by [立川 Bridge](https://twitter.com/GBB_tachikawa).
