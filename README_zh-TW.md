@@ -88,5 +88,5 @@ Tri-Hard slab v2 使用 Autodesk Fusion 360 跟 KiCad 7.0 製作。
 當設定完之後，要重新進入網路設定頁面，則在按住 S1/Start（左上角的按鍵，GPIO8）並接上電腦即可。
 
 ## 姓名標示
-請自由使用，主要你有註記來源自這個頁面。
+請自由使用，但需要註記來源自這個頁面。
 [採用 CC 姓名標示 4.0](https://creativecommons.org/licenses/by/4.0/)
