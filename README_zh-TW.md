@@ -48,7 +48,7 @@ Tri-Hard slab v2 使用 Autodesk Fusion 360 跟 KiCad 7.0 製作。
 - 1.3 吋 OLED 螢幕，通常是 SH1106 驅動晶片，有些針腳 GND / VCC 位置會相反，記得用旁邊的滑動開關去調整
 - 6 個 14mm 長度 的 M6 對鎖螺絲來將所有東西組裝在一起。
 
-我並沒有自己編譯韌體，所以我直接從[這邊](https://gp2040-ce.info/#/download) 下載了 Raspberry Pi Pico 的版本，上傳到板子之後，按住 3P / RB / R1 按鍵（GPIO17）並連接到電腦上，在瀏覽器中輸入 192.168.7.1 開啟網路設定頁面，你可以上傳我目前的設定檔 [setting files for v0.7.5](Setting%20files%20for%20GP2040-CE/gp2040ce_backup_20231024164547186.gp2040)，或是依照下方的資訊來手動設定所有的 GPIO 腳位：
+我並沒有自己編譯韌體，所以我直接從[這邊](https://gp2040-ce.info/#/download)下載了 Raspberry Pi Pico 的版本，上傳到板子之後，按住 3P / RB / R1 按鍵（GPIO17）並連接到電腦上，在瀏覽器中輸入 192.168.7.1 開啟網路設定頁面，你可以上傳我目前的設定檔 [setting files for v0.7.5](Setting%20files%20for%20GP2040-CE/gp2040ce_backup_20231024164547186.gp2040)，或是依照下方的資訊來手動設定所有的 GPIO 腳位：
 |按鍵|GPIO|
 |-|-|
 |Up|14|
