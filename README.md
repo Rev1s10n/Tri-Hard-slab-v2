@@ -85,7 +85,7 @@ Additionally here's the GPIO and some other settings for other features and addo
 |PS Passthrough D-|2 (automactically selected)|
 |Focus Mode Pin|29|
 
-When finished, if you want to access web configurator again, just hold S1/Start (GPIO8) which is located on the top left and connect to the PC.
+When finished, if you want to access web configurator again, just hold S2/Start (GPIO8) which is located on the top left and connect to the PC.
 
 ## Attribution
 You're free to use this design as long as you credit to this page.
