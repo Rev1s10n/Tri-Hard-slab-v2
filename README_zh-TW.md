@@ -2,7 +2,7 @@
 ## **[English](README.md) | 繁體中文**
 使用 [GP2040-CE](https://gp2040-ce.info/) 0.7.5 版的薄型全按鍵控制器，為了《快打旋風 6》以及希望未來其他格鬥遊戲會跟進額外按鍵綁定的客製 15 鍵配置。
 
-主要啟發自 [b1nc](https://github.com/b1nc) 的 [Egg On Rice Controller](https://github.com/b1nc/Egg-On-Rice-Controller)、[ぽめ](https://twitter.com/pomegd)的[Mille-feuille](https://pomegd.booth.pm/items/2685530)以及[立川 Bridge](https://twitter.com/GBB_tachikawa) 的 [BridgeBoard](https://bridgeshop.booth.pm/items/4869470)。
+主要啟發自 [b1nc](https://github.com/b1nc) 的 [Egg On Rice Controller](https://github.com/b1nc/Egg-On-Rice-Controller)、[ぽめ](https://twitter.com/pomegd)的 [Mille-feuille](https://pomegd.booth.pm/items/2685530) 以及[立川 Bridge](https://twitter.com/GBB_tachikawa) 的 [BridgeBoard](https://bridgeshop.booth.pm/items/4869470)。
 
 設計參考主要源自 [jfdeor2](https://github.com/jfedor2) 的 [flatbox](https://github.com/jfedor2/flatbox) rev4 以及 [TheTrain](https://github.com/TheTrainGoes) 和 [Lucipher](https://github.com/arntsonl) 的 [USB Passthrough Board](https://github.com/OpenStickCommunity/Hardware/tree/main/USB%20Passthrough%20Board)，後者採用 [CC 姓名標示 4.0](https://creativecommons.org/licenses/by/4.0/) 授權。
 
