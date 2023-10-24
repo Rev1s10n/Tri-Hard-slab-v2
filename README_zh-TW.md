@@ -82,7 +82,7 @@ Tri-Hard slab v2 使用 Autodesk Fusion 360 跟 KiCad 7.0 製作。
 |SOCD Cleaning Mode Selection Slider Pin 1|28|
 |SOCD Cleaning Mode Selection Slider Pin 2|27|
 |PS Passthrough D+|1|
-|PS Passthrough D-|2 (automactically selected)|
+|PS Passthrough D-|2（自動選取）|
 |Focus Mode Pin|29|
 
 當設定完之後，要重新進入網路設定頁面，則按住 S2/Start（左上角的按鍵，GPIO8）並接上電腦即可。
