@@ -41,7 +41,7 @@ The Tri-Hard slab v2 is made with Autodesk Fusion 360 and KiCad 7.0.
 Everything is under Source files (except for the original 360 file as that's not really necessary, you can import those dxf into fusion easily), there's additional footprints for some parts that is somewhat interchangeable, but you may need to put extra works like rewire some traces or edit edge cuts.
 
 ## Assemble and settings
-![Arcylic layers for references](images/tri-hard_slab_v2_render_exploded.png)
+![Acrylic layers for references](images/tri-hard_slab_v2_render_exploded.png)
 _Layer indication for acrylic_
 
 Besides the PCB and arcylics, you need to order some additional things for the build:
