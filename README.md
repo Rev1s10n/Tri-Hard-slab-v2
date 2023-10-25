@@ -79,8 +79,8 @@ Additionally here's the GPIO and some other settings for other features and addo
 |Player LEDs|starting from 15 to 18|
 |Display SDA|4|
 |Display SCL|5|
-|Joystick Selection Slider Pine 1|26|
-|Joystick Selection Slider Pine 2|25|
+|Joystick Selection Slider Pin 1|26|
+|Joystick Selection Slider Pin 2|25|
 |SOCD Cleaning Mode Selection Slider Pin 1|28|
 |SOCD Cleaning Mode Selection Slider Pin 2|27|
 |PS Passthrough D+|1|
