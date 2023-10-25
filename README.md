@@ -31,7 +31,7 @@ _PS5 ready, I guess_
 
 ## Production files
 ![3D render](images/tri-hard_slab_v2_render.png)
-_A quick 3D render I did while waiting for arcylic layers_
+_A quick 3D render I did while waiting for acrylic layers_
 
 You can simply download all production files via Hardware files folder, and utilize services like JLCPCB (which is what I did in this case) to order the board. As for the arcrylic layers, use all dxf files and order 1 for each with the exact height mentioned on the filename for optimal result.
 To refine it further, send the step files to vendor to ask them to do either fillet (round corner) or chamfer for at least the top layer.
