@@ -89,6 +89,11 @@ Additionally here's the GPIO and some other settings for other features and addo
 
 When it's done, to access web configurator again, just hold S2/Start (GPIO8) which is located on the top left and connect to the PC.
 
+## Custom artwork
+
+You can download the PSD file and dxf drawing reference in Custom artwork template folder for top panel.
+Print it out and insert the artwork between 01 and 02 acrylic layers.
+
 ## Attribution
 You're free to use this design as long as you credit to this page.
 [Licensed under CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
