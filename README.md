@@ -44,7 +44,7 @@ Everything is under Source files (except for the original 360 file as that's not
 ![Acrylic layers for references](images/tri-hard_slab_v2_render_exploded.png)
 _Layer indication for acrylic_
 
-Besides the PCB and arcylics, you need to order some additional things for the build:
+Besides the PCB and acrylics, you need to order some additional things for the build:
 - Kailh low profile switches, obviously, depends on your keycaps, I use v2 specifically as I want to use Punk Workshop's keycap.
 - 15 Kailh low profile hotswap socket (for PG1350, which is compatible with PG1353).
 - A 1.3 inches OLED display, which you can find pretty much everywhere, usually it's SH1106 driver, make sure to check the pin order and set the pins accordingly with the slide switch next to it.
@@ -87,7 +87,7 @@ Additionally here's the GPIO and some other settings for other features and addo
 |PS Passthrough D-|2 (automactically selected)|
 |Focus Mode Pin|29|
 
-When finished, if you want to access web configurator again, just hold S2/Start (GPIO8) which is located on the top left and connect to the PC.
+When it's done, to access web configurator again, just hold S2/Start (GPIO8) which is located on the top left and connect to the PC.
 
 ## Attribution
 You're free to use this design as long as you credit to this page.
