@@ -47,7 +47,7 @@ _Layer indication for acrylic_
 Besides the PCB and arcylics, you need to order some additional things for the build:
 - Kailh low profile switches, obviously, depends on your keycaps, I use v2 specifically as I want to use Punk Workshop's keycap.
 - 15 Kailh low profile hotswap socket (for PG1350, which is compatible with PG1353).
-- 1.3 OLED display, which you can find pretty much everywhere, usually it's SH1106 driver, make sure to check the pin order and set the pins accordingly with the slide switch next to it.
+- A 1.3 inches OLED display, which you can find pretty much everywhere, usually it's SH1106 driver, make sure to check the pin order and set the pins accordingly with the slide switch next to it.
 - 6 M6 sex bolts / Chicago screws with around 14mm length to secure the whole things.
 
 I did not compile my own firmware so I use Raspberry Pi Pico one which you can download [here](https://gp2040-ce.info/#/download). Once uploaded to the board, hold 3P / RB / R1 key (GPIO17) and connect to computer and go to 192.168.7.1 for the web configurator, you can either upload my [setting files for v0.7.5](Setting%20files%20for%20GP2040-CE/gp2040ce_backup_20231024164547186.gp2040) or manually do the pin mapping with following GPIO layout:
