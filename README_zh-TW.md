@@ -79,8 +79,8 @@ Tri-Hard slab v2 使用 Autodesk Fusion 360 跟 KiCad 7.0 製作。
 |Player LEDs|從 15 到 18|
 |Display SDA|4|
 |Display SCL|5|
-|Joystick Selection Slider Pine 1|26|
-|Joystick Selection Slider Pine 2|25|
+|Joystick Selection Slider Pin 1|26|
+|Joystick Selection Slider Pin 2|25|
 |SOCD Cleaning Mode Selection Slider Pin 1|28|
 |SOCD Cleaning Mode Selection Slider Pin 2|27|
 |PS Passthrough D+|1|
