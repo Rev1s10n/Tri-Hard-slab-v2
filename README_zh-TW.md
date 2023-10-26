@@ -38,7 +38,7 @@
 
 ## 原始檔
 Tri-Hard slab v2 使用 Autodesk Fusion 360 跟 KiCad 7.0 製作。
-所有原始檔都在 Source files 資料夾內，除了 360 的檔案，但你可以直接匯入 dxf 再進行修改所以也不需要。KiCad 檔案有額外的 footprint，主要是一些可能可以互相替換用的元件，如果下訂板子時缺貨可以改用，但你會需要額外再調整一些線路。
+所有原始檔都在 Source files 資料夾內，包含 Fusion 360 的粗略草稿，所有的雷射切割跟 step 檔，以及匯入 KiCad 對齊零件的圖都出自於這裡。KiCad 檔案有額外的 footprint，主要是一些可能可以互相替換用的元件，如果下訂板子時缺貨可以改用，但你會需要額外再調整一些線路。
 
 ## 組裝與設定
 ![Acrylic layers for references](images/tri-hard_slab_v2_render_exploded.png)
