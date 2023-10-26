@@ -38,7 +38,7 @@ To refine it further, send the step files to vendor to ask them to do either fil
 
 ## Source files
 The Tri-Hard slab v2 is made with Autodesk Fusion 360 and KiCad 7.0.
-Everything is under Source files (except for the original 360 file as that's not really necessary, you can import those dxf into fusion easily), there's additional footprints for some parts that is somewhat interchangeable, but you may need to put extra works like rewire some traces or edit edge cuts.
+Everything is under Source files, include a rough Fusion 360 sketch which is the base of all laser-cut dxf files, step file and for KiCad to align things up. There's additional footprints for some parts that is somewhat interchangeable, but you may need to put extra works like rewire some traces or edit edge cuts.
 
 ## Assemble and settings
 ![Acrylic layers for references](images/tri-hard_slab_v2_render_exploded.png)
