@@ -50,7 +50,7 @@ Besides the PCB and acrylics, you need to order some additional things for the b
 - A 1.3 inches OLED display, which you can find pretty much everywhere, usually it's SH1106 driver, make sure to check the pin order and set the pins accordingly with the slide switch next to it.
 - 6 M6 sex bolts / Chicago screws with around 14mm length to secure the whole things.
 
-I did not compile my own firmware so I use Raspberry Pi Pico one which you can download [here](https://gp2040-ce.info/#/download). Once uploaded to the board, hold 3P / RB / R1 key (GPIO17) and connect to computer and go to 192.168.7.1 for the web configurator, you can either upload my [setting files for v0.7.5](Setting%20files%20for%20GP2040-CE/gp2040ce_backup_20231024164547186.gp2040) or manually do the pin mapping with following GPIO layout:
+I've compiled a custom firmware with custom button layout for the OLED display and assigned all the GPIO for each keys and switches, which you can find under Firmware and setting files folder, there's a backup setting files as well with some additional RGB LED setting. Here's some GPIO pin mapping info for reference:
 |Keys|GPIO|
 |-|-|
 |Up|14|
